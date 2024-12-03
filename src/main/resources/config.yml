@@ -1,0 +1,12 @@
+# Stuff you need for the database
+# Must be strings (stuff with quotes around it)
+# Ask bernie if you need help with this stuff
+db-username: ""
+db-password: ""
+db-url: ""
+db-name: ""
+# If your host gives a full JDBC connector string, put it here
+jdbc-string: ""
+# Port on the server you assign to the API
+# Must be a number, and without any quotes around it
+api-port:

@@ -1,0 +1,14 @@
+name: betterlog
+version: '${project.version}'
+main: xyz.lincolnsmp.main.MainPlugin
+api-version: '1.21'
+load: POSTWORLD
+commands:
+  log:
+    aliases: [getlogs, checklogs, logs, getblocklog]
+    usage: /<command> <x> <y> <z> <world>
+    permission: betterlog.log
+  checkop:
+    aliases: [opcheck, checkawp]
+    usage: /<command> <username>
+    permission: betterlog.checkop
